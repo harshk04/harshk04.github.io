@@ -11,10 +11,23 @@
     };
     spinner();
     
+    document.addEventListener('visibilitychange',
+    function () {
+        if (document.visibilityState === "visible") {
+            document.title = "Portfolio | Harsh";
+            $("#favicon").attr("href", "img/Bitmoji.png");
+        }
+        else {
+            document.title = "Come Back To Portfolio";
+            $("#favicon").attr("href", "img/Bitmoji.png");
+        }
+    });
     
     // Initiate the wowjs
     new WOW().init();
 
+
+ 
 
     // Navbar on scrolling
     $(window).scroll(function () {

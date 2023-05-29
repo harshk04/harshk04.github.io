@@ -111,7 +111,7 @@
 
 .typed-cursor {
     font-size: 30px;
-    color: var(--dark);
+    color: var(--primary);
 }
 
 .btn-play {
@@ -482,3 +482,6 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+
+
