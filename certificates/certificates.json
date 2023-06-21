@@ -1,0 +1,86 @@
+[
+  
+  
+  {
+    "name": "Introduction to AWS",
+    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
+    "image": "aws",
+    "category": "mern",
+    "links": {
+   "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "VPC using AWS",
+    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
+    "image": "vpc",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+    {
+    "name": "Microsoft Power Platform",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "ms1",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/1pushpak1/Student-Management",
+      "code": "https://github.com/1pushpak1/Student-Management"
+    }
+  },
+  {
+    "name": "Windows 10,11 & Office 365",
+    "desc": "AI ChatBot buit using C#, which can answer to all the questions..",
+    "image": "ms2",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/1pushpak1",
+      "code": "https://github.com/1pushpak1"
+    }
+  },
+  {
+    "name": "Winter Interview",
+    "desc": "Python integrated with Biometric machine and connected to app which give the real time attendence. .",
+    "image": "winter",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/1pushpak1",
+      "code": "https://github.com/1pushpak1"
+    }
+  },
+  {
+    "name": "C++ Programming",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "c++",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/1pushpa1/1pushpak1.github.io"
+    }
+  },
+  {
+    "name": "DSA",
+    "desc": "Work on progress.",
+    "image": "wait",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Google Cloud Fundamentals",
+    
+    "image": "google",
+    "category": "mern"
+    
+    
+  }
+  
+  
+ 
+ 
+]

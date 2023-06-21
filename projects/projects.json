@@ -1,0 +1,65 @@
+[
+  
+    {
+    "name": "Skin Disease Detection ML Model",
+    "desc": "This Machine Learning model detects the skin disease.",
+    "image": "skin",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/1pushpak1",
+      "code": "https://github.com/1pushpak1"
+    }
+  },
+  {
+    "name": "MoNo ChatBot",
+    "desc": "AI ChatBot buit using C#, which can answer to all the questions..",
+    "image": "mono",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/1pushpak1",
+      "code": "https://github.com/1pushpak1"
+    }
+  },
+  {
+    "name": "Hostel Attendence",
+    "desc": "Python integrated with Biometric machine and connected to app which give the real time attendence. .",
+    "image": "hostel",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/1pushpak1",
+      "code": "https://github.com/1pushpak1"
+    }
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "portfolio",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/1pushpa1/1pushpak1.github.io"
+    }
+  },
+  {
+    "name": "Neural Network CAR",
+    "desc": "Work on progress.",
+    "image": "wait",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Sign Language ML Model",
+    "desc": "Video Calling app for deafends to convert sign language into caption.",
+    "image": "videoapp",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+  
+  
+]
