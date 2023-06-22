@@ -1,10 +1,28 @@
 [
-  
-  
   {
-    "name": "Introduction to AWS",
+    "name": "Online Hackathon - INNOVERSE",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "innoverse",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  }, 
+  {
+    "name": "Python for AI and Development",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "python",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "AI for Everyone",
     "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "aws",
+    "image": "ai",
     "category": "mern",
     "links": {
    "view": "#",
@@ -12,75 +30,55 @@
     }
   },
   {
-    "name": "VPC using AWS",
+    "name": "Foundations of Cybersecurity",
     "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
-    "image": "vpc",
+    "image": "cybersecurity",
     "category": "mern",
     "links": {
       "view": "#",
       "code": "#"
     }
   },
-    {
-    "name": "Microsoft Power Platform",
-    "desc": "Basic Student management program for schools using c++ only backend without UI.",
-    "image": "ms1",
-    "category": "android",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
+    
   {
-    "name": "Windows 10,11 & Office 365",
+    "name": "SQL (Intermediate)",
     "desc": "AI ChatBot buit using C#, which can answer to all the questions..",
-    "image": "ms2",
-    "category": "android",
-    "links": {
-      "view": "",
-      "code": ""
-    }
-  },
-  {
-    "name": "Winter Interview",
-    "desc": "Python integrated with Biometric machine and connected to app which give the real time attendence. .",
-    "image": "winter",
-    "category": "android",
-    "links": {
-      "view": "",
-      "code": ""
-    }
-  },
-  {
-    "name": "C++ Programming",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "c++",
+    "image": "sql",
     "category": "mern",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Introduction to Swift 5",
+    "desc": "Python integrated with Biometric machine and connected to app which give the real time attendence. .",
+    "image": "swift",
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "The Fundamentals of Digital Marketing",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "marketing",
+    "category": "android",
     "links": {
       "view": "#",
       "code": ""
     }
   },
   {
-    "name": "DSA",
+    "name": "CSS & JavaScript Certification",
     "desc": "Work on progress.",
-    "image": "wait",
+    "image": "web",
     "category": "android",
     "links": {
       "view": "#",
       "code": "#"
     }
-  },
-  {
-    "name": "Google Cloud Fundamentals",
-    
-    "image": "google",
-    "category": "mern"
-    
-    
   }
-  
-  
- 
- 
+
 ]
