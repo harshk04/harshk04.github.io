@@ -53,13 +53,13 @@
   },
 
   {
-    "name": "Sign Language ML Model",
-    "desc": "Video Calling app for deafends to convert sign language into caption.",
-    "image": "videoapp",
+    "name": "IntelliBot (Chatbot)",
+    "desc": "Intellibot is an AI-powered chatbot developed using Python, trained on English language data from various fields. ",
+    "image": "chatbot",
     "category": "mern",
     "links": {
       "view": "#",
-      "code": "#"
+      "code": "https://github.com/harshk04/Intellibot_Chatbot"
     }
   }
   
