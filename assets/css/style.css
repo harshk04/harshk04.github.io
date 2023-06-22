@@ -1244,7 +1244,7 @@ form .button-area {
 }
 .footer .box-container .box p i {
   padding-right: 1rem;
-  color: #ffae00;
+  color: #e01e5b;
 }
 .footer .box-container .box a {
   font-size: 1.5rem;
@@ -1253,7 +1253,7 @@ form .button-area {
   display: block;
 }
 .footer .box-container .box a:hover {
-  color: #ffae00;
+  color: #e01e5b;
 }
 .footer .box-container .box .share {
   display: flex;
@@ -1277,7 +1277,7 @@ form .button-area {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: #e01e5b;
 }
 .footer .credit {
   padding: 1rem 0 0 0;
@@ -1289,8 +1289,9 @@ form .button-area {
   border-top: 0.1rem solid #fff3;
 }
 .footer .credit a {
-  color: #ffae00;
+  color: #e01e5b;
 }
+/* '#2EB67D', '#ECB22E', '#E01E5B', '#36C5F0'  */
 .footer .fa {
   color: #e90606;
   margin: 0 0.3rem;
@@ -1341,7 +1342,7 @@ form .button-area {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
+  background: #e01e5b;
   color: rgb(13, 0, 44);
   border-radius: 50%;
   transition: 1s linear;
