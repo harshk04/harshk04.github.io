@@ -214,6 +214,9 @@ header .navbar ul li a:hover {
   padding-top: 1rem;
   z-index: 1;
 }
+
+
+
 .home .image {
   flex: 1 1 40rem;
   z-index: 1;
@@ -278,9 +281,12 @@ header .navbar ul li a:hover {
 .home .btn:hover {
   background: #1a047e;
   cursor: pointer;
+  color: #e01e5b;
+
 }
 .home .btn:hover i {
-  transform: translateX(5px);
+  transform: translateX(10px);
+color: #e01e5b;
   cursor: pointer;
 }
 /* social icons start */
@@ -441,9 +447,11 @@ header .navbar ul li a:hover {
 .resumebtn .btn:hover {
   background: #1a047e;
   transform: scale(1.3);
+  color: #e01e5b;
 }
 .resumebtn .btn:hover i {
-  transform: translateX(5px);
+  transform: translateX(10px);
+  color: #e01e5b;
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
@@ -767,10 +775,11 @@ header .navbar ul li a:hover {
 }
 .work .viewall .btn:hover {
   background: #fff;
-  color: #000;
+  color: #e01e5b;
 }
 .work .viewall .btn:hover i {
   transform: translateX(5px);
+  color: #e01e5b;
 }
 /* work section ends */
 
@@ -901,9 +910,11 @@ header .navbar ul li a:hover {
 }
 .morebtn .btn:hover {
   background: #1a047e;
+  color: #e01e5b;
 }
 .morebtn .btn:hover i {
-  transform: translateX(5px);
+  transform: translateX(10px);
+  color: #e01e5b;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -1063,10 +1074,11 @@ header .navbar ul li a:hover {
 }
 .certificate .viewalls .btn:hover {
   background: #1a047e;
-  color: #ffffff;
+  color: #e01e5b;
 }
 .certificate .viewalls .btn:hover i {
-  transform: translateX(5px);
+  transform: translateX(10px);
+  color: #e01e5b;
 }
 */
 
