@@ -59,19 +59,19 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Pushpak";
-            $("#favicon").attr("href", "/assets/images/favicon1.png");
+            document.title = "Portfolio | Harsh";
+            $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favicon1.png");
+            $("#favicon").attr("href", "/assets/images/favicon.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["C++ development", "Artificial Intelligence", "Machine Learning", "Cloud Computing"],
+    strings: ["C++ development","Python Development","Machine Learning","Neural Networking" ],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
