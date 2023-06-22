@@ -20,12 +20,12 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Pushpak";
-            $("#favicon").attr("href", "/assets/images/favicon1.png");
+            document.title = "Projects | Portfolio Harsh";
+            $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favicon1.png");
+            $("#favicon").attr("href", "/assets/images/favicon.png");
         }
     });
 

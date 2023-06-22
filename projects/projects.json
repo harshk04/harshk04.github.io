@@ -1,35 +1,46 @@
 [
   
     {
-    "name": "Skin Disease Detection ML Model",
-    "desc": "This Machine Learning model detects the skin disease.",
-    "image": "skin",
+    "name": "Movie Ticket Booking System",
+    "desc": "The primary objective of the system is to allows users to browse movie listings, select a showtime and choose their seats for their tickets online.",
+    "image": "movie",
     "category": "mern",
     "links": {
-      "view": "https://github.com/1pushpak1",
-      "code": "https://github.com/1pushpak1"
+      "view": "https://github.com/harshk04/Movie_Ticket_Booking_System/blob/main/main.cpp",
+      "code": "https://github.com/harshk04/Movie_Ticket_Booking_System"
     }
   },
   {
-    "name": "MoNo ChatBot",
-    "desc": "AI ChatBot buit using C#, which can answer to all the questions..",
-    "image": "mono",
+    "name": "WeatherApp",
+    "desc": "A simple weather website that displays the current weather of the location searched. It uses Ninja-API for fetching data.",
+    "image": "weather",
     "category": "mern",
     "links": {
       "view": "https://github.com/1pushpak1",
-      "code": "https://github.com/1pushpak1"
+      "code": "https://github.com/harshk04/Weatherapp"
     }
   },
   {
-    "name": "Hostel Attendence",
-    "desc": "Python integrated with Biometric machine and connected to app which give the real time attendence. .",
-    "image": "hostel",
+    "name": "Netflix Landing Page Clone",
+    "desc": "Work on progress.",
+    "image": "netflix",
     "category": "mern",
     "links": {
-      "view": "https://github.com/1pushpak1",
-      "code": "https://github.com/1pushpak1"
+      "view": "#",
+      "code": "https://github.com/harshk04/Netflix_clone"
     }
   },
+  {
+    "name": "QR Code Generator",
+    "desc": "QR Code Generator with Tkinter is a Python project that allows you to generate QR codes from input links and display them on the screen.",
+    "image": "qr",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/harshk04/QR_Generator/blob/main/QR_Generator.ipynb",
+      "code": "https://github.com/harshk04/QR_Generator"
+    }
+  },
+
   {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
@@ -40,16 +51,7 @@
       "code": "https://github.com/1pushpa1/1pushpak1.github.io"
     }
   },
-  {
-    "name": "Neural Network CAR",
-    "desc": "Work on progress.",
-    "image": "wait",
-    "category": "mern",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
+
   {
     "name": "Sign Language ML Model",
     "desc": "Video Calling app for deafends to convert sign language into caption.",
