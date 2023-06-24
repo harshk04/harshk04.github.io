@@ -1220,6 +1220,8 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
+
+
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
@@ -1241,6 +1243,8 @@ form .button-area {
 }
 /* contact section media queries ends */
 /* contact section ends */
+
+
 
 /* footer section starts */
 .footer {
@@ -1379,3 +1383,4 @@ form .button-area {
   top: calc(100% - 6rem);
 }
 /* scroll top ends */
+
