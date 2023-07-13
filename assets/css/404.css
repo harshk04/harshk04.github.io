@@ -20,9 +20,9 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-*::selection{
-  background: #2b3dda;
-  color: #fff;
+*::selection {
+  background: #e01e5b;
+  color: #ecb22e;
 }
 html{
   font-size: 62.5%;
@@ -83,10 +83,11 @@ header .navbar ul li a{
   letter-spacing: 0.04rem;
 }
 header .navbar ul li a.active,
-header .navbar ul li a:hover{
-  color: #011aff;
-  border-bottom: .2rem solid #011aff;
-  padding: .5rem 0;
+header .navbar ul li a:hover {
+  color: #e01e5b;
+  border-bottom: 0.2rem solid #e01e5b;
+  padding: 0.5rem 0;
+  cursor: pointer;
 }
 /* navbar ends */
 
