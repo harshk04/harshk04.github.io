@@ -220,10 +220,9 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 110%;
-  height: 100%;
+  width: 90%;
   margin-left: 6rem;
-  border-radius: 100%;
+  border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
