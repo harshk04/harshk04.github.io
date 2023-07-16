@@ -15,6 +15,36 @@
   },
 
   {
+    "name": "HTML",
+    "icon": "https://img.icons8.com/color/48/html-5--v1.png"
+  },
+
+  {
+    "name": "CSS",
+    "icon": "https://img.icons8.com/color/48/css3.png"
+  },
+
+  {
+    "name": "Java Script",
+    "icon": "https://img.icons8.com/color/48/javascript--v1.png"
+  },
+
+  {
+    "name": "Numpy",
+    "icon": "https://img.icons8.com/color/48/numpy.png"
+  },
+
+  {
+    "name": "Pandas",
+    "icon": "https://img.icons8.com/color/48/pandas.png"
+  },
+
+
+  {
+    "name": "Open CV",
+    "icon": "https://img.icons8.com/color/48/opencv.png"
+  },
+  {
     "name": "VS Code",
     "icon": "https://img.icons8.com/color/48/visual-studio-code-2019.png"
   },
@@ -23,10 +53,23 @@
     "icon": "https://img.icons8.com/color/48/null/xcode.png"
   },
   {
+    "name": "Jupyter",
+    "icon": "https://img.icons8.com/fluency/48/jupyter.png"
+  },
+  
+  {
+    "name": "Mac OS",
+    "icon": "https://img.icons8.com/color/48/mac-logo.png"
+  },
+
+  {
     "name": "AWS",
     "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
   },
-
+  {
+    "name": "office-365",
+    "icon": "https://img.icons8.com/color/48/office-365.png"
+  },
   {
     "name": "Github",
     "icon": "https://img.icons8.com/color/48/null/github--v1.png"
@@ -40,31 +83,15 @@
   {
     "name": "Canva",
     "icon": "https://img.icons8.com/color/48/canva.png"
-  },
-
-  {
-    "name": "office-365",
-    "icon": "https://img.icons8.com/color/48/office-365.png"
-  },
-
-
-  {
-    "name": "Open CV",
-    "icon": "https://img.icons8.com/color/48/opencv.png"
-  },
-
-
-  {
-    "name": "Pandas",
-    "icon": "https://img.icons8.com/color/48/pandas.png"
-  },
-  {
-    "name": "Numpy",
-    "icon": "https://img.icons8.com/color/48/numpy.png"
-  },
-
-  {
-    "name": "Figma",
-    "icon": "https://img.icons8.com/fluency/48/null/figma.png"
   }
+
+
+
+
+
+
+  
+
+  
+ 
 ]
