@@ -30,6 +30,37 @@
     }
   },
   {
+    "name": "AWS Cloud Technical Essentials",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "aws",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "AWS S3 Basics",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "s3",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+
+  {
+    "name": "Create a Virtual Private Cloud (VPC) Using AWS",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "vpc",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
     "name": "Foundations of Cybersecurity",
     "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
     "image": "cybersecurity",
@@ -40,16 +71,7 @@
     }
   },
     
-  {
-    "name": "SQL (Intermediate)",
-    "desc": "AI ChatBot buit using C#, which can answer to all the questions..",
-    "image": "sql",
-    "category": "mern",
-    "links": {
-      "view": "",
-      "code": ""
-    }
-  },
+
   {
     "name": "Introduction to Swift 5",
     "desc": "Python integrated with Biometric machine and connected to app which give the real time attendence. .",
@@ -61,16 +83,15 @@
     }
   },
   {
-    "name": "The Fundamentals of Digital Marketing",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "marketing",
+    "name": "SQL (Intermediate)",
+    "desc": "AI ChatBot buit using C#, which can answer to all the questions..",
+    "image": "sql",
     "category": "android",
     "links": {
-      "view": "#",
+      "view": "",
       "code": ""
     }
   },
- 
   {
     "name": "CSS & JavaScript Certification",
     "desc": "Work on progress.",
@@ -80,6 +101,19 @@
       "view": "#",
       "code": "#"
     }
+  },
+
+   {
+    "name": "The Fundamentals of Digital Marketing",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "marketing",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
   }
+ 
+
 
 ]

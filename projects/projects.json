@@ -1,33 +1,22 @@
 [
-  
-    {
-    "name": "Movie Ticket Booking System",
-    "desc": "The primary objective of the system is to allows users to browse movie listings, select a showtime and choose their seats for their tickets online.",
-    "image": "movie",
+  {
+    "name": "Heart Disease Prediction ",
+    "desc": "Logistic regression model in interactive web application predicts heart disease presence using user input and Streamlit.",
+    "image": "disease",
     "category": "mern",
     "links": {
-      "view": "https://github.com/harshk04/Movie_Ticket_Booking_System/blob/main/main.cpp",
-      "code": "https://github.com/harshk04/Movie_Ticket_Booking_System"
+      "view": "harshk.is-a.dev/TemperatureConverter/",
+      "code": "https://github.com/harshk04/TemperatureConverter"
     }
   },
   {
-    "name": "WeatherApp",
-    "desc": "A simple weather website that displays the current weather of the location searched. It uses Ninja-API for fetching data.",
-    "image": "weather",
+    "name": "IntelliBot (Chatbot)",
+    "desc": "Intellibot is an AI-powered chatbot developed using Python, trained on English language data from various fields. ",
+    "image": "chatbot",
     "category": "mern",
     "links": {
-      "view": "https://github.com/1pushpak1",
-      "code": "https://github.com/harshk04/Weatherapp"
-    }
-  },
-  {
-    "name": "Netflix Landing Page Clone",
-    "desc": "This is the core code from scratch to clone the landing page of Netflix using HTML, CSS and JavaScript.",
-    "image": "netflix",
-    "category": "mern",
-    "links": {
-      "view": "#",
-      "code": "https://github.com/harshk04/Netflix_clone"
+      "view": "https://github.com/harshk04/Intellibot_Chatbot/blob/main/main.py",
+      "code": "https://github.com/harshk04/Intellibot_Chatbot"
     }
   },
   {
@@ -40,26 +29,54 @@
       "code": "https://github.com/harshk04/QR_Generator"
     }
   },
-
   {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "portfolio",
     "category": "mern",
     "links": {
-      "view": "#",
-      "code": "https://github.com/1pushpa1/1pushpak1.github.io"
+      "view": "https://harshk.is-a.dev/",
+      "code": "https://github.com/harshk04/harshk04.github.io"
     }
   },
-
   {
-    "name": "IntelliBot (Chatbot)",
-    "desc": "Intellibot is an AI-powered chatbot developed using Python, trained on English language data from various fields. ",
-    "image": "chatbot",
+    "name": "WeatherApp",
+    "desc": "A simple weather website that displays the current weather of the location searched. It uses Ninja-API for fetching data.",
+    "image": "weather",
     "category": "mern",
     "links": {
-      "view": "#",
-      "code": "https://github.com/harshk04/Intellibot_Chatbot"
+      "view": "https://harshk.is-a.dev/Weatherapp/",
+      "code": "https://github.com/harshk04/Weatherapp"
+    }
+  },
+  {
+    "name": "Netflix Landing Page Clone",
+    "desc": "This is the core code from scratch to clone the landing page of Netflix using HTML, CSS and JavaScript.",
+    "image": "netflix",
+    "category": "mern",
+    "links": {
+      "view": "https://harshk.is-a.dev/Netflix_clone/",
+      "code": "https://github.com/harshk04/Netflix_clone"
+    }
+  },
+  {
+    "name": "Temperature Converter",
+    "desc": "The Temperature Conversion Tool simplifies temperature conversion between Celsius and Fahrenheit scales, offering a user-friendly and efficient solution.",
+    "image": "temperature",
+    "category": "android",
+    "links": {
+      "view": "harshk.is-a.dev/TemperatureConverter/",
+      "code": "https://github.com/harshk04/TemperatureConverter"
+    }
+  },
+  {
+    "name": "Movie Ticket Booking System",
+    "desc": "The primary objective of the system is to allows users to browse movie listings, select a showtime and choose their seats for their tickets online.",
+    "image": "movie",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/harshk04/Movie_Ticket_Booking_System/blob/main/main.cpp",
+      "code": "https://github.com/harshk04/Movie_Ticket_Booking_System"
     }
   }
   

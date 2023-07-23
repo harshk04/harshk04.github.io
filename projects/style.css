@@ -21,7 +21,7 @@ body{
 }
 
 *::selection{
-  background: #2b3dda;
+  background: #e01e5b;
   color: #fff;
 }
 
@@ -95,8 +95,8 @@ header .navbar ul li a{
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-  color: #011aff;
-  border-bottom: .2rem solid #011aff;
+  color: #e01e5b;
+  border-bottom: .2rem solid #e01e5b;
   padding: .5rem 0;
 }
 /* navbar ends */
