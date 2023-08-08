@@ -39,11 +39,6 @@
     "icon": "https://img.icons8.com/color/48/pandas.png"
   },
 
-
-  {
-    "name": "Open CV",
-    "icon": "https://img.icons8.com/color/48/opencv.png"
-  },
   {
     "name": "VS Code",
     "icon": "https://img.icons8.com/color/48/visual-studio-code-2019.png"
@@ -57,6 +52,11 @@
     "icon": "https://img.icons8.com/fluency/48/jupyter.png"
   },
   
+  {
+    "name": "Google Colab",
+    "icon": "https://img.icons8.com/color/48/google-colab.png"
+  },
+
   {
     "name": "Mac OS",
     "icon": "https://img.icons8.com/color/48/mac-logo.png"

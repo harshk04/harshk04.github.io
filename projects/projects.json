@@ -10,6 +10,26 @@
     }
   },
   {
+    "name": "Health Insurance Price Prediction ",
+    "desc": "This repo houses a health insurance cost prediction model using machine learning. It offers estimates via a user-friendly Streamlit web app.",
+    "image": "health",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/harshk04/insurance-price-prediction/blob/main/model.py",
+      "code": "https://github.com/harshk04/insurance-price-prediction"
+    }
+  },
+  {
+    "name": "Iris Classification",
+    "desc": "This repository features a Logistic Regression-based Iris data classification model trained on the well-known Iris dataset, encompassing flower measurements and species.",
+    "image": "iris",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/harshk04/iris-data/blob/main/model.ipynb",
+      "code": "https://github.com/harshk04/iris-data"
+    }
+  },
+  {
     "name": "IntelliBot (Chatbot)",
     "desc": "Intellibot is an AI-powered chatbot developed using Python, trained on English language data from various fields. ",
     "image": "chatbot",

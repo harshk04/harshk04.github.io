@@ -10,6 +10,16 @@
     }
   }, 
   {
+    "name": "Patent Published in IPO",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "patent",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  }, 
+  {
     "name": "Python for AI and Development",
     "desc": "Basic Student management program for schools using c++ only backend without UI.",
     "image": "python",
@@ -76,7 +86,7 @@
     "name": "Introduction to Swift 5",
     "desc": "Python integrated with Biometric machine and connected to app which give the real time attendence. .",
     "image": "swift",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "",
       "code": ""
