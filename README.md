@@ -12,8 +12,9 @@ Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 
 
 ## 📌 Sneak Peek of Main Page 🙈 :
-<img width="1440" alt="Screenshot 2023-07-10 at 11 21 01 PM" src="https://github.com/harshk04/harshk04.github.io/assets/115946158/220362c5-e38a-4a42-9091-f2cc93118184">
-<img width="1439" alt="Screenshot 2023-07-10 at 11 22 23 PM" src="https://github.com/harshk04/harshk04.github.io/assets/115946158/cd426e91-ea20-415f-b510-567603bc8840">
+<img width="1440" alt="Screenshot 2023-08-10 at 10 54 42 PM" src="https://github.com/harshk04/harshk04.github.io/assets/115946158/0a78137e-6cc6-4a3a-9b06-fc8d67cb3b22">
+<img width="1440" alt="Screenshot 2023-08-10 at 10 54 53 PM" src="https://github.com/harshk04/harshk04.github.io/assets/115946158/384afc35-e9b1-4340-98e5-e75a63bd6f19">
+
 
 <h2>📬 Contact</h2>
 
