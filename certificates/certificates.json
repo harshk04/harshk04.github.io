@@ -10,13 +10,23 @@
     }
   }, 
   {
-    "name": "Patent Published in IPO",
+    "name": "Patent-1 Published in IPO",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "patent",
     "category": "mern",
     "links": {
       "view": "#",
       "code": ""
+    }
+  }, 
+  {
+    "name": "Patent-2 Published in IPO",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "patent2",
+    "category": "mern",
+    "links": {
+      "view": "https://drive.google.com/file/d/1JlSkc8ZQOEAZ_m3n5YQQvSMVGPW9ii94/view?usp=drive_link",
+      "code": "https://drive.google.com/file/d/1JlSkc8ZQOEAZ_m3n5YQQvSMVGPW9ii94/view?usp=drive_link"
     }
   }, 
   {
@@ -33,7 +43,7 @@
     "name": "AI for Everyone",
     "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
     "image": "ai",
-    "category": "mern",
+    "category": "android",
     "links": {
    "view": "#",
       "code": "#"
@@ -61,9 +71,51 @@
   },
 
   {
-    "name": "Create a Virtual Private Cloud (VPC) Using AWS",
+    "name": "Create a VPC Using AWS",
     "desc": "Basic Student management program for schools using c++ only backend without UI.",
     "image": "vpc",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+
+  {
+    "name": "Digital Transformation with Google Cloud",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "gc2",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+
+  {
+    "name": "Infrastructure and Application Modernization with Google Cloud",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "gc1",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },  
+  {
+    "name": "Innovating with Data and Google Cloud",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "gc3",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Understanding Google Cloud Security and Operations",
+    "desc": "Basic Student management program for schools using c++ only backend without UI.",
+    "image": "gc4",
     "category": "android",
     "links": {
       "view": "#",
@@ -74,7 +126,7 @@
     "name": "Foundations of Cybersecurity",
     "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
     "image": "cybersecurity",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "#",
       "code": "#"
