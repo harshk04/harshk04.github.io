@@ -1,5 +1,25 @@
 [
   {
+    "name": "IIT Madras",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "iit",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  }, 
+  {
+    "name": "MLSA - Alpha Member",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "mlsa",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  }, 
+  {
     "name": "Online Hackathon - INNOVERSE",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "innoverse",
@@ -53,7 +73,7 @@
     "name": "AWS Cloud Technical Essentials",
     "desc": "Basic Student management program for schools using c++ only backend without UI.",
     "image": "aws",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "#",
       "code": "#"
@@ -85,7 +105,7 @@
     "name": "Digital Transformation with Google Cloud",
     "desc": "Basic Student management program for schools using c++ only backend without UI.",
     "image": "gc2",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "#",
       "code": "#"

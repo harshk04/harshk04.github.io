@@ -1,5 +1,35 @@
 [
   {
+    "name": "JalSamadhan",
+    "desc": "Empower communities in crisis to map and categorize water issues on a mobile app, aiding disaster response and providing insights for administrators.",
+    "image": "jalsamadhan",
+    "category": "mern",
+    "links": {
+      "view": "https://drive.google.com/file/d/18uuwnxLwYMLg96BrnMD-hRKhjFruFz-H/view?usp=drive_link",
+      "code": "https://github.com/harshk04/JalSamadhan"
+    }
+  },
+  {
+    "name": "EfficientMail",
+    "desc": "EfficientMail, with Streamlit integration, streamlines email automation. Import mail ID's, input Gmail credentials, customize mail, effortlessly send personalized emails.",
+    "image": "efficientmail",
+    "category": "mern",
+    "links": {
+      "view": "https://mailing-efficient.streamlit.app/",
+      "code": "https://github.com/harshk04/EfficientMail"
+    }
+  },
+  {
+    "name": "ResQFood",
+    "desc": "A platform empowering community collaboration, real-time impact tracking, educational resources, seamless donation integration, and timely notifications.",
+    "image": "resqfood",
+    "category": "mern",
+    "links": {
+      "view": "https://harshk.is-a.dev/Food-Waste-Reduction/",
+      "code": "https://github.com/harshk04/Food-Waste-Reduction"
+    }
+  },
+  {
     "name": "Heart Disease Prediction ",
     "desc": "Logistic regression model in interactive web application predicts heart disease presence using user input and Streamlit.",
     "image": "disease",
@@ -13,7 +43,7 @@
     "name": "Health Insurance Price Prediction ",
     "desc": "This repo houses a health insurance cost prediction model using machine learning. It offers estimates via a user-friendly Streamlit web app.",
     "image": "health",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "https://github.com/harshk04/insurance-price-prediction/blob/main/model.py",
       "code": "https://github.com/harshk04/insurance-price-prediction"
@@ -33,7 +63,7 @@
     "name": "IntelliBot (Chatbot)",
     "desc": "Intellibot is an AI-powered chatbot developed using Python, trained on English language data from various fields. ",
     "image": "chatbot",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "https://github.com/harshk04/Intellibot_Chatbot/blob/main/main.py",
       "code": "https://github.com/harshk04/Intellibot_Chatbot"
@@ -63,22 +93,13 @@
     "name": "WeatherApp",
     "desc": "A simple weather website that displays the current weather of the location searched. It uses Ninja-API for fetching data.",
     "image": "weather",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "https://harshk.is-a.dev/Weatherapp/",
       "code": "https://github.com/harshk04/Weatherapp"
     }
   },
-  {
-    "name": "Netflix Landing Page Clone",
-    "desc": "This is the core code from scratch to clone the landing page of Netflix using HTML, CSS and JavaScript.",
-    "image": "netflix",
-    "category": "mern",
-    "links": {
-      "view": "https://harshk.is-a.dev/Netflix_clone/",
-      "code": "https://github.com/harshk04/Netflix_clone"
-    }
-  },
+
   {
     "name": "Temperature Converter",
     "desc": "The Temperature Conversion Tool simplifies temperature conversion between Celsius and Fahrenheit scales, offering a user-friendly and efficient solution.",
