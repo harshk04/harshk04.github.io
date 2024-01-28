@@ -1367,7 +1367,7 @@ form .button-area {
 #scroll-top {
   position: fixed;
   top: -140%;
-  right: 2rem;
+  left: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
   background: #e01e5b;
