@@ -38,20 +38,20 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("iqdapiR1PhZ9ZTfbE");
+    // $("#contact-form").submit(function (event) {
+    //     emailjs.init("iqdapiR1PhZ9ZTfbE");
 
-        emailjs.sendForm('service_h492bpj', 'template_2tc9m9v', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
+    //     emailjs.sendForm('service_h492bpj', 'template_2tc9m9v', '#contact-form')
+    //         .then(function (response) {
+    //             console.log('SUCCESS!', response.status, response.text);
+    //             document.getElementById("contact-form").reset();
+    //             alert("Form Submitted Successfully");
+    //         }, function (error) {
+    //             console.log('FAILED...', error);
+    //             alert("Form Submission Failed! Try Again");
+    //         });
+    //     event.preventDefault();
+    // });
     // <!-- emailjs to mail contact form data -->
 
 });
@@ -294,3 +294,53 @@ srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
 
 
+// Initialize Firebase
+// Initialize Firebase
+const firebaseConfig = {
+    apiKey: "AIzaSyBg4SHf6jrSvaPp2BtTKauKYuy07kIUNAM",
+    authDomain: "potfolio-website-c3f40.firebaseapp.com",
+    databaseURL: "https://potfolio-website-c3f40-default-rtdb.firebaseio.com",
+    projectId: "potfolio-website-c3f40",
+    storageBucket: "potfolio-website-c3f40.appspot.com",
+    messagingSenderId: "698971783565",
+    appId: "1:698971783565:web:8d180c2e8252f06adf7dc4"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+  
+  // Reference to the Realtime Database
+  const db = firebase.database().ref("Contactform");
+  
+  // Form submission event listener
+  document.getElementById('contact-form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission
+  
+    // Get form data
+    const name = document.querySelector('input[name="name"]').value;
+    const email = document.querySelector('input[name="email"]').value;
+    const phone = document.querySelector('input[name="phone"]').value;
+    const message = document.querySelector('textarea[name="message"]').value;
+  
+    console.log(name, email, phone, message);
+  
+    // Add data to Realtime Database
+    saveMessages(name, email, phone, message);
+  
+    function saveMessages(name, email, phone, message) {
+      var newContactForm = db.push();
+  
+      newContactForm.set({
+        name: name,
+        email: email,
+        phone: phone,
+        message: message,
+        timestamp: firebase.database.ServerValue.TIMESTAMP
+      });
+  
+      // Display confirmation message
+      alert('Your response has been recorded. Thank you!');
+    }
+  
+    // Reset the form after successful submission if needed
+    document.getElementById('contact-form').reset();
+  });
