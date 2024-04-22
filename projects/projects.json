@@ -9,6 +9,38 @@
       "code": "https://github.com/harshk04/JalSamadhan"
     }
   },
+  
+  {
+    "name": "StreamDev",
+    "desc": "Revolutionizing coding education with live streaming, real-time code editing, and Web3 integration for donations, fostering interactive learning and expert sharing.",
+    "image": "streamdev",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/harshk04/StreamDev",
+      "code": "https://github.com/harshk04/StreamDev"
+    }
+  },
+
+  {
+    "name": "StoreSense",
+    "desc": "StoreSense: Smart Retail Tracking - Optimize store performance with real-time insights.",
+    "image": "storesense",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/harshk04/StoreSense",
+      "code": "https://github.com/harshk04/StoreSense"
+    }
+  },
+  {
+    "name": "LinkFluencer",
+    "desc": "Streamlining influencer-company connections and event sponsorship through targeted matchmaking, robust support, and data-driven insights",
+    "image": "linkfluencer",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/harshk04/",
+      "code": "https://github.com/harshk04/"
+    }
+  },
   {
     "name": "EfficientMail",
     "desc": "EfficientMail, with Streamlit integration, streamlines email automation. Import mail ID's, input Gmail credentials, customize mail, effortlessly send personalized emails.",
@@ -23,7 +55,7 @@
     "name": "ResQFood",
     "desc": "A platform empowering community collaboration, real-time impact tracking, educational resources, seamless donation integration, and timely notifications.",
     "image": "resqfood",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "https://harshk.is-a.dev/Food-Waste-Reduction/",
       "code": "https://github.com/harshk04/Food-Waste-Reduction"
@@ -73,7 +105,7 @@
     "name": "QR Code Generator",
     "desc": "QR Code Generator with Tkinter is a Python project that allows you to generate QR codes from input links and display them on the screen.",
     "image": "qr",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "https://github.com/harshk04/QR_Generator/blob/main/QR_Generator.ipynb",
       "code": "https://github.com/harshk04/QR_Generator"

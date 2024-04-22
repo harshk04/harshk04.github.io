@@ -9,16 +9,17 @@
       "code": ""
     }
   }, 
+
   {
-    "name": "MLSA - Alpha Member",
+    "name": "Hackathon - VIHAAN 007",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "mlsa",
+    "image": "vihaan",
     "category": "mern",
     "links": {
       "view": "#",
       "code": ""
     }
-  }, 
+  },
   {
     "name": "Online Hackathon - INNOVERSE",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
@@ -50,10 +51,20 @@
     }
   }, 
   {
+    "name": "MLSA - Alpha Member",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "mlsa",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  }, 
+  {
     "name": "Python for AI and Development",
     "desc": "Basic Student management program for schools using c++ only backend without UI.",
     "image": "python",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "#",
       "code": "#"
