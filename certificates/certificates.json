@@ -9,21 +9,10 @@
       "code": ""
     }
   }, 
-
   {
-    "name": "Hackathon - VIHAAN 007",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "vihaan",
-    "category": "mern",
-    "links": {
-      "view": "#",
-      "code": ""
-    }
-  },
-  {
-    "name": "Online Hackathon - INNOVERSE",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "innoverse",
+    "name": "Research paper Published",
+    "desc": "Title: Advancements in Named Entity Recognition: A Focus on Medical Applications and Comparative Analysis of NLP LibrariesAdvancements in Named Entity Recognition: A Focus on Medical Applications and Comparative Analysis of NLP Libraries. ",
+    "image": "mmcitre",
     "category": "mern",
     "links": {
       "view": "#",
@@ -51,9 +40,50 @@
     }
   }, 
   {
+    "name": "Hackathon - VIHAAN 007",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "vihaan",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  },
+  {
+    "name": "Hackathon - INNOVERSE",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "innoverse",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  }, 
+  {
+    "name": "Hackathon - HACK WITH INDIA",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "hackwithindia",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  }, 
+  
+  {
     "name": "MLSA - Alpha Member",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "mlsa",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  }, 
+  {
+    "name": "WorldQuant Challenge",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "Brain",
     "category": "mern",
     "links": {
       "view": "#",

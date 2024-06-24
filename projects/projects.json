@@ -1,5 +1,25 @@
 [
   {
+    "name": "SQLGenie",
+    "desc": "A Text-to-SQL tool using LLAMA3 (LLM) and Qdrant, reducing query time by 30% and achieving over 90% accuracy, enhancing data acquisition and SQL efficiency by 50%.",
+    "image": "sqlgenie",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/harshk04/SQLGenie",
+      "code": "https://github.com/harshk04/SQLGenie"
+    }
+  },
+  {
+    "name": "Automobile Damage Detection",
+    "desc": "A vehicle damage detection system using advanced computer vision techniques to provide accurate, fast damage assessment and fraud detection.",
+    "image": "auto",
+    "category": "mern",
+    "links": {
+      "view": "https://drive.google.com/file/d/1v06nlUBUC2CueL7EkntTAbZh2E9KApDp/view?usp=drive_link",
+      "code": "https://github.com/harshk04/Automobile-Damage-Detection"
+    }
+  },
+  {
     "name": "JalSamadhan",
     "desc": "Empower communities in crisis to map and categorize water issues on a mobile app, aiding disaster response and providing insights for administrators.",
     "image": "jalsamadhan",
@@ -9,7 +29,16 @@
       "code": "https://github.com/harshk04/JalSamadhan"
     }
   },
-  
+  {
+    "name": "BookFinder-LLM-Application",
+    "desc": "BookFinder-LLM-Application uses RAG with GPT-2 from HuggingFace and Qdrant for efficient semantic search and response generation from PDF documents.",
+    "image": "book",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/harshk04/BookFinder-LLM-Application",
+      "code": "https://github.com/harshk04/BookFinder-LLM-Application"
+    }
+  },
   {
     "name": "StreamDev",
     "desc": "Revolutionizing coding education with live streaming, real-time code editing, and Web3 integration for donations, fostering interactive learning and expert sharing.",
@@ -18,17 +47,6 @@
     "links": {
       "view": "https://github.com/harshk04/StreamDev",
       "code": "https://github.com/harshk04/StreamDev"
-    }
-  },
-
-  {
-    "name": "StoreSense",
-    "desc": "StoreSense: Smart Retail Tracking - Optimize store performance with real-time insights.",
-    "image": "storesense",
-    "category": "mern",
-    "links": {
-      "view": "https://github.com/harshk04/StoreSense",
-      "code": "https://github.com/harshk04/StoreSense"
     }
   },
   {
@@ -47,27 +65,38 @@
     "image": "efficientmail",
     "category": "mern",
     "links": {
-      "view": "https://mailing-efficient.streamlit.app/",
+      "view": "https://efficientmail.streamlit.app/",
       "code": "https://github.com/harshk04/EfficientMail"
     }
   },
   {
-    "name": "ResQFood",
-    "desc": "A platform empowering community collaboration, real-time impact tracking, educational resources, seamless donation integration, and timely notifications.",
-    "image": "resqfood",
-    "category": "android",
+    "name": "SentimentScope",
+    "desc": "A simple web application built with Streamlit and Hugging Face Transformers library that performs sentiment analysis on user-provided text inputs.",
+    "image": "sentiment",
+    "category": "mern",
     "links": {
-      "view": "https://harshk.is-a.dev/Food-Waste-Reduction/",
-      "code": "https://github.com/harshk04/Food-Waste-Reduction"
+      "view": "https://sentiment-scope.streamlit.app/",
+      "code": "https://github.com/harshk04/Sentiment-Scope"
+    }
+  },
+
+  {
+    "name": "Movie Recommender System",
+    "desc": "This is a simple web application built using Streamlit, allowing users to discover movie recommendations based on their selected preferences.",
+    "image": "movv",
+    "category": "mern",
+    "links": {
+      "view": "https://movie-recommender-system1.streamlit.app/",
+      "code": "https://github.com/harshk04/Movie-Recommender-System"
     }
   },
   {
     "name": "Heart Disease Prediction ",
     "desc": "Logistic regression model in interactive web application predicts heart disease presence using user input and Streamlit.",
     "image": "disease",
-    "category": "mern",
+    "category": "android",
     "links": {
-      "view": "https://github.com/harshk04/Heart-disease-Prediction/blob/main/model.py",
+      "view": "https://heart-disease-prediction-m.streamlit.app/",
       "code": "https://github.com/harshk04/Heart-disease-Prediction"
     }
   },
@@ -91,16 +120,7 @@
       "code": "https://github.com/harshk04/iris-data"
     }
   },
-  {
-    "name": "IntelliBot (Chatbot)",
-    "desc": "Intellibot is an AI-powered chatbot developed using Python, trained on English language data from various fields. ",
-    "image": "chatbot",
-    "category": "android",
-    "links": {
-      "view": "https://github.com/harshk04/Intellibot_Chatbot/blob/main/main.py",
-      "code": "https://github.com/harshk04/Intellibot_Chatbot"
-    }
-  },
+
   {
     "name": "QR Code Generator",
     "desc": "QR Code Generator with Tkinter is a Python project that allows you to generate QR codes from input links and display them on the screen.",
