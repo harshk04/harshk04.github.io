@@ -1,7 +1,7 @@
 [
   {
     "name": "SQLGenie",
-    "desc": "A Text-to-SQL tool using LLAMA3 (LLM) and Qdrant, reducing query time by 30% and achieving over 90% accuracy, enhancing data acquisition and SQL efficiency by 50%.",
+    "desc": "A friendly SQL chatbot powered by LLAMA3, OPENAI, SQLCODER. SQLGenie assists with database queries, data visualizations, and training plans.",
     "image": "sqlgenie",
     "category": "mern",
     "links": {
@@ -15,7 +15,7 @@
     "image": "auto",
     "category": "mern",
     "links": {
-      "view": "https://drive.google.com/file/d/1v06nlUBUC2CueL7EkntTAbZh2E9KApDp/view?usp=drive_link",
+      "view": "https://automobile-damage-detection.streamlit.app/",
       "code": "https://github.com/harshk04/Automobile-Damage-Detection"
     }
   },
