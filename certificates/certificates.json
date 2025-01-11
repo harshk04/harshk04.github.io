@@ -20,6 +20,16 @@
     }
   }, 
   {
+    "name": "Research paper Published",
+    "desc": "Title: Advancements in Named Entity Recognition: A Focus on Medical Applications and Comparative Analysis of NLP LibrariesAdvancements in Named Entity Recognition: A Focus on Medical Applications and Comparative Analysis of NLP Libraries. ",
+    "image": "ictcs",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": ""
+    }
+  },
+  {
     "name": "Patent-1 Published in IPO",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "patent",
@@ -84,7 +94,7 @@
     "name": "WorldQuant Challenge",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "Brain",
-    "category": "mern",
+    "category": "android",
     "links": {
       "view": "#",
       "code": ""
