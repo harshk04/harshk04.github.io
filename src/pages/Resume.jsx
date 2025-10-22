@@ -38,11 +38,11 @@ const Resume = () => (
           title="Tools and technologies I lean on."
           description="Grouped by themes so you can quickly scan technical depth and breadth."
         />
-        <p className="mx-auto max-w-3xl text-sm text-slate-600 dark:text-slate-300">
+        {/* <p className="mx-auto max-w-3xl rounded-3xl border border-slate-200 bg-white/80 p-6 text-base leading-relaxed text-slate-600 shadow-soft dark:border-white/10 dark:bg-white/10 dark:text-slate-200">
           From rapid experimentation in notebooks to deploying resilient pipelines, this stack represents
           the tools I reach for most when bringing AI ideas to life. I pair them with clear documentation and
           evaluation frameworks so teams can maintain velocity long after handover.
-        </p>
+        </p> */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {skills.map((group) => (
             <div

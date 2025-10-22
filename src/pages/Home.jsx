@@ -264,29 +264,35 @@ const Home = () => {
             description="A few recognitions that mean the most to me. Explore all credentials on the dedicated certifications page."
           />
           <div className="grid gap-6 md:grid-cols-3">
-            {featuredCertificates.map((certificate) => (
-              <div
-                key={certificate.title}
-                className="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-lg dark:border-white/10 dark:bg-white/5"
-              >
-                <div className="h-40 overflow-hidden">
-                  <img
-                    src={certificate.image}
-                    alt={certificate.title}
-                    className="h-full w-full object-cover"
-                    loading="lazy"
-                  />
+            {featuredCertificates
+              .filter(
+                (certificate) =>
+                  certificate.title !==
+                  'Oracle Cloud Infrastructure 2024 · Generative AI Certified Professional',
+              )
+              .map((certificate) => (
+                <div
+                  key={certificate.title}
+                  className="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-lg dark:border-white/10 dark:bg-white/5"
+                >
+                  <div className="h-40 overflow-hidden">
+                    <img
+                      src={certificate.image}
+                      alt={certificate.title}
+                      className="h-full w-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="flex flex-1 flex-col gap-2 p-6">
+                    <h3 className="text-lg font-heading font-semibold text-slate-900 dark:text-white">
+                      {certificate.title}
+                    </h3>
+                    <p className="text-sm text-slate-600 dark:text-slate-300">{certificate.description}</p>
+                  </div>
                 </div>
-                <div className="flex flex-1 flex-col gap-2 p-6">
-                  <h3 className="text-lg font-heading font-semibold text-slate-900 dark:text-white">
-                    {certificate.title}
-                  </h3>
-                  <p className="text-sm text-slate-600 dark:text-slate-300">{certificate.description}</p>
-                </div>
-              </div>
-            ))}
+              ))}
           </div>
-          <div className="flex justify-end">
+          <div className="flex justify-center">
             <Button as="a" href="/certifications" variant="secondary">
               Browse all certifications
             </Button>

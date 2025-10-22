@@ -29,16 +29,16 @@ const Services = () => (
           title="Let’s craft intelligent experiences end-to-end."
           description="From strategy and experimentation to deployment and observability, I help teams bring AI-powered ideas to life with clarity and speed."
         />
-        <div className="mx-auto max-w-2xl space-y-3 text-sm text-slate-600 dark:text-slate-300">
-          <p>
+        <div className="mx-auto max-w-2xl space-y-4 text-base leading-relaxed text-slate-600 dark:text-slate-300">
+          <p className="rounded-3xl border border-slate-200 bg-white/80 p-5 shadow-soft dark:border-white/10 dark:bg-white/10">
             Whether you need a rapid prototype, a production-ready analytics assistant, or guidance on
             responsible AI adoption, I plug into your team as a hands-on partner. I combine research-backed
             experimentation with practical engineering so you can move quickly without sacrificing rigour.
           </p>
-          <p>
+          {/* <p className="rounded-3xl border border-slate-200 bg-white/80 p-5 shadow-soft dark:border-white/10 dark:bg-white/10">
             We’ll collaborate through weekly demos, async updates, and crisp documentation—keeping leaders
             aligned while engineers get the clarity they need to ship confidently.
-          </p>
+          </p> */}
         </div>
       </Container>
     </section>

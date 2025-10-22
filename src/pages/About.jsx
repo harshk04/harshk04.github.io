@@ -171,13 +171,20 @@ const About = () => {
               title="Bringing clarity to complex, technical problems."
               description="Every collaboration starts with discovery, clear metrics, and accessible storytelling — ensuring teammates and stakeholders stay aligned."
             />
-            <div className="space-y-3 text-sm text-slate-600 dark:text-slate-300">
-              <p>
+            <div className="space-y-4 text-sm text-slate-600 dark:text-slate-300">
+              <p className="rounded-3xl border border-slate-200 bg-white/80 p-5 leading-relaxed shadow-soft dark:border-white/10 dark:bg-white/10">
                 Discovery sessions help me translate goals into measurable outcomes and surface constraints early. I document assumptions, data requirements, and success metrics so every partner knows what we are solving and why it matters.
               </p>
-              <p>
-                From there I run quick experiments—mixing scrappy prototypes, evaluation notebooks, and narrative updates. Frequent checkpoints keep leadership aligned while engineering teams get the clarity and autonomy they need to ship.
-              </p>
+              <div className="space-y-4 rounded-3xl border border-slate-200 bg-white/80 p-5 leading-relaxed shadow-soft dark:border-white/10 dark:bg-white/10">
+                <p>
+                  From there I run quick experiments—mixing scrappy prototypes, evaluation notebooks, and narrative updates. Frequent checkpoints keep leadership aligned while engineering teams get the clarity and autonomy they need to ship.
+                </p>
+                <div className="flex justify-center">
+                  <Button as="a" href="/contact" variant="secondary">
+                    Let’s design your workflow
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
           <div className="space-y-4">

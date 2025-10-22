@@ -22,11 +22,9 @@ export const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     const root = document.documentElement;
-    if (theme === 'dark') {
-      root.classList.add('dark');
-    } else {
-      root.classList.remove('dark');
-    }
+    const classMethod = theme === 'dark' ? 'add' : 'remove';
+    root.classList[classMethod]('dark');
+    root.style.colorScheme = theme;
     window.localStorage.setItem(storageKey, theme);
   }, [theme]);
 

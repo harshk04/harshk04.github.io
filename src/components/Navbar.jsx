@@ -31,13 +31,23 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full backdrop-blur border-b border-white/10 bg-white/70 shadow-sm transition-colors dark:bg-background/80 dark:border-white/5">
       <div className="container mx-auto flex items-center justify-between gap-4 px-4 py-4 sm:px-6">
-        <NavLink to="/" className="flex items-center gap-2" onClick={handleLogoClick}>
-          <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-semibold uppercase tracking-wide text-primary-foreground shadow-soft">
+        <NavLink
+          to="/"
+          className="relative flex flex-1 items-center justify-center gap-2 pl-14 sm:flex-none sm:justify-start sm:gap-2 sm:pl-0"
+          onClick={handleLogoClick}
+        >
+          <span className="absolute left-0 inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-semibold uppercase tracking-wide text-primary-foreground shadow-soft sm:hidden">
             {personalInfo.name.slice(0, 1)}
           </span>
-          <div className="hidden flex-col sm:flex">
-            <span className="font-heading text-lg font-semibold text-slate-900 dark:text-white">
-              Harsh Kumawat
+          <span className="hidden h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-semibold uppercase tracking-wide text-primary-foreground shadow-soft sm:inline-flex">
+            {personalInfo.name.slice(0, 1)}
+          </span>
+          <span className="sm:hidden text-xl font-semibold tracking-[0.55em] text-slate-700 drop-shadow-[0_1px_4px_rgba(15,23,42,0.5)] dark:text-slate-100 dark:drop-shadow-[0_1px_4px_rgba(15,23,42,0.85)]">
+            HARSH
+          </span>
+         <div className="hidden flex-col sm:flex">
+           <span className="font-heading text-lg font-semibold text-slate-900 dark:text-white">
+             Harsh Kumawat
             </span>
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">
               Portfolio
