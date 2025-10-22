@@ -1,26 +1,80 @@
-## Portfolio-Website
-Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
+# Harsh Kumawat — Portfolio
 
-<a href="https://harshk.is-a.dev/" target="_blank">**Visit Now** 🚀</a>
+A modern, multi-page portfolio for Harsh Kumawat rebuilt with React, Vite, and Tailwind CSS. The site highlights AI/ML projects, leadership experiences, and services while keeping all original content intact in a cleaner, more navigable experience.
 
+<a href="https://harshk.is-a.dev" target="_blank" rel="noreferrer">**Visit the live site →**</a>
 
+## ✨ Highlights
+- Dedicated pages for Home, About, Projects, Services, Resume, Contact, and Blog
+- Dark/light theme toggle with persistent preference
+- Framer Motion page transitions and scroll-based reveals
+- Project filtering, featured work showcase, and rich detail cards
+- SEO-ready with per-page meta tags and Open Graph data
+- Responsive layouts powered by Tailwind utility classes
+- Contact form wired for Formspree with graceful fallback messaging
 
-## 📌 Tech Stack
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)]([https://pushpak-is-a.dev](https://harshk.is-a.dev))&nbsp;
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]([https://pushpak-is-a.dev](https://harshk.is-a.dev))&nbsp;
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://harshk.is-a.dev)
+## 🛠️ Tech Stack
+- [React 18](https://react.dev/) + [React Router](https://reactrouter.com/)
+- [Vite](https://vitejs.dev/) for fast dev/build tooling
+- [Tailwind CSS](https://tailwindcss.com/) with custom theme tokens
+- [Framer Motion](https://www.framer.com/motion/) for animations
+- [lucide-react](https://lucide.dev/) icon set
+- [react-helmet-async](https://github.com/staylor/react-helmet-async) for structured metadata
 
+## 📂 Project Structure
+```
+├── public/            # Static assets (images, favicon, CNAME)
+├── src/
+│   ├── components/    # Reusable UI building blocks
+│   ├── context/       # Theme provider and hooks
+│   ├── data/          # Portfolio copy, projects, skills, experiences
+│   ├── pages/         # Route-level screen components
+│   ├── styles/        # Global Tailwind entrypoint
+│   └── main.jsx       # App bootstrap
+└── vite.config.js     # Vite configuration
+```
 
-## 📌 Sneak Peek of Main Page 🙈 :
-<img width="1440" alt="Screenshot 2023-08-10 at 10 54 42 PM" src="https://github.com/harshk04/harshk04.github.io/assets/115946158/0a78137e-6cc6-4a3a-9b06-fc8d67cb3b22">
-<img width="1440" alt="Screenshot 2023-08-10 at 10 54 53 PM" src="https://github.com/harshk04/harshk04.github.io/assets/115946158/384afc35-e9b1-4340-98e5-e75a63bd6f19">
+## 🚀 Getting Started
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+2. **Start the dev server**
+   ```bash
+   npm run dev
+   ```
+   The app will be available at `http://localhost:5173`.
+3. **Lint the codebase**
+   ```bash
+   npm run lint
+   ```
+4. **Create a production build**
+   ```bash
+   npm run build
+   ```
+   Preview the build with `npm run preview`.
 
+### Environment Variables
+Optional: configure Formspree handling for the contact form.
+```
+VITE_FORMSPREE_ID=<your_form_id>
+```
+If this value is absent, the form will display a helpful message and encourage direct email contact instead of failing silently.
 
-<h2>📬 Contact</h2>
+## 🧩 Customisation Guide
+- **Personal info, hero, services, certifications:** update `src/data/profile.js`
+- **Projects & filters:** edit `src/data/projects.js`
+- **Skills matrix:** edit `src/data/skills.js`
+- **Styling tokens:** adjust colours, fonts, and spacing in `tailwind.config.js`
+- **Global styles:** tweak utility layers in `src/styles/global.css`
 
+All images live under `public/images`. Replace or add assets there and update the relevant data entry.
 
-If you want to contact me, you can reach me through below handles.
+## 📦 Deployment
+Run `npm run build` and deploy the `dist/` directory to your hosting provider of choice (GitHub Pages, Vercel, Netlify, etc.). The included `CNAME` file ensures custom-domain support on GitHub Pages when copied to the deployed output.
 
-&nbsp;&nbsp;<a href="https://www.linkedin.com/in/harsh-kumawat-069bb324b/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
+## 🤝 Contact
+Have feature ideas or feedback? Reach out at [kumawatharsh2004@gmail.com](mailto:kumawatharsh2004@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/harsh-kumawat-069bb324b/).
 
-© 2024 Harsh
+---
+Crafted with curiosity and consistency ✨

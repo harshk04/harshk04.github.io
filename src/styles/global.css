@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900 dark:bg-background dark:text-white transition-colors duration-300;
+}
+
+.backdrop-blur-gradient {
+  backdrop-filter: blur(18px);
+  background: linear-gradient(
+    120deg,
+    rgba(99, 102, 241, 0.18),
+    rgba(20, 184, 166, 0.18)
+  );
+}
+
+.glass-panel {
+  @apply backdrop-blur-xl bg-white/5 border border-white/10;
+}
+
+.footer-particles::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.25) 2px, transparent 2px),
+    radial-gradient(circle at 80% 30%, rgba(99, 102, 241, 0.25) 2px, transparent 2px),
+    radial-gradient(circle at 40% 80%, rgba(20, 184, 166, 0.25) 2px, transparent 2px);
+  background-size: 120px 120px;
+  opacity: 0.25;
+  animation: footer-drift 14s linear infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.footer-particles::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 15% 75%, rgba(99, 102, 241, 0.35) 3px, transparent 3px),
+    radial-gradient(circle at 85% 20%, rgba(20, 184, 166, 0.35) 2.5px, transparent 2.5px);
+  background-size: 160px 160px;
+  opacity: 0.18;
+  animation: footer-drift-alt 18s linear infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes footer-drift {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  50% {
+    background-position: 30px 40px, -20px 60px, 40px -30px;
+  }
+  100% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+}
+
+@keyframes footer-drift-alt {
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  50% {
+    background-position: -40px 30px, 30px -20px;
+  }
+  100% {
+    background-position: 0 0, 0 0;
+  }
+}
