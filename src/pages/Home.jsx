@@ -70,12 +70,12 @@ const Home = () => {
             >
               {heroContent.subheading}
             </motion.p>
-            <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:gap-6">
-              <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center justify-center gap-4 text-center sm:flex-row sm:items-center sm:justify-start sm:gap-6 sm:text-left">
+              <div className="flex flex-col items-center gap-2 sm:items-start">
                 <span className="text-xs font-medium uppercase tracking-[0.38em] text-slate-600 dark:text-slate-200">
                   Currently exploring
                 </span>
-                <div className="relative h-10 min-w-[240px] overflow-hidden">
+                <div className="relative mx-auto h-10 min-w-[240px] overflow-hidden sm:mx-0">
                   <AnimatePresence mode="wait">
                     <motion.span
                       key={activeHighlight}
@@ -137,7 +137,7 @@ const Home = () => {
 
       <section>
         <Container>
-          <div className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-8 shadow-soft dark:border-white/10 dark:bg-white/5 md:grid-cols-4">
+          <div className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-8 dark:border-white/10 dark:bg-white/5 md:grid-cols-4">
             {overviewStats.map((stat) => (
               <div key={stat.label} className="space-y-2">
                 <span className="text-3xl font-heading font-semibold text-primary">{stat.value}</span>
