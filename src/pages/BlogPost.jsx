@@ -16,7 +16,7 @@ const BlogPost = () => {
     if (typeof window !== 'undefined') {
       return window.location.href;
     }
-    return `https://harshk.is-a.dev/blog/${slug}`;
+    return `https://harshk.is-a.dev/harsh-blog/${slug}`;
   }, [slug]);
 
   const twitterShare = `https://twitter.com/intent/tweet?text=${encodeURIComponent(post?.title ?? '')}&url=${encodeURIComponent(shareUrl)}`;
@@ -44,7 +44,7 @@ const BlogPost = () => {
           description="The blog post you’re trying to read isn’t available. Head back to explore other articles."
         />
         <Link
-          to="/blog"
+          to="/harsh-blog"
           className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
         >
           <ArrowLeft className="h-4 w-4" />
@@ -59,13 +59,13 @@ const BlogPost = () => {
       <Seo
         title={post.title}
         description={post.description}
-        url={`https://harshk.is-a.dev/blog/${post.slug}`}
+        url={`https://harshk.is-a.dev/harsh-blog/${post.slug}`}
         image={post.heroImage}
       />
-      <section className="border-b border-slate-200 bg-white py-12 dark:border-white/10 dark:bg-white/5">
+      <section className="border-b border-slate-200 bg-white py-10 dark:border-white/10 dark:bg-white/5">
         <Container className="space-y-6">
           <Link
-            to="/blog"
+            to="/harsh-blog"
             className="inline-flex items-center gap-2 text-sm font-semibold text-primary transition hover:gap-3 hover:text-primary/80"
           >
             <ArrowLeft className="h-4 w-4" /> Back to all articles

@@ -1,13 +1,13 @@
 export const personalInfo = {
   name: 'Harsh Kumawat',
-  role: 'AI/ML Engineer · ECE Undergraduate',
+  role: 'AI/ML Engineer · Engineering Undergraduate',
   location: 'Jaipur, India',
   email: 'kumawatharsh2004@gmail.com',
   phone: '+91 99289 67278',
   age: 20,
   resumeUrl:
     'https://drive.google.com/drive/folders/13ei8glkirfzSDpgC9J1Hg6iRFzlukhKK?usp=drive_link',
-  availability: 'Open to internships and freelance collaborations',
+  availability: 'Open for fresher roles',
 };
 
 export const socialLinks = [
@@ -23,7 +23,7 @@ export const heroContent = {
   eyebrow: 'AI / ML · Data Science',
   heading: 'Designing human-centred AI experiences with production-ready engineering.',
   subheading:
-    'ECE undergraduate and AI/ML engineer crafting intelligent systems that balance research-led experimentation with scalable deployment.',
+    'Engineering undergraduate and AI/ML engineer crafting intelligent systems that balance research-led experimentation with scalable deployment.',
   highlights: [
     'Data Science',
     'Generative AI',
@@ -35,7 +35,7 @@ export const heroContent = {
   ],
   primaryCta: {
     label: 'View Projects',
-    href: '/projects',
+    href: '/harsh-projects',
   },
   secondaryCta: {
     label: 'Download Resume',
@@ -51,7 +51,7 @@ export const overviewStats = [
 ];
 
 export const aboutContent = {
-  title: 'An enthusiastic ECE undergraduate fuelled by curiosity and community.',
+  title: 'An enthusiastic engineering undergraduate fuelled by curiosity and community.',
   description:
     'I enjoy translating research-backed AI ideas into real products. From mentoring peers to shipping production-ready features, I lean on storytelling, structure, and data to make complex systems approachable.',
   focusAreas: [
@@ -106,7 +106,7 @@ export const experience = [
     ],
   },
   {
-    company: 'Ravviolabs Technologies Pvt. Ltd.',
+    company: 'Ravviolabs Technologies',
     role: 'Generative AI Intern',
     period: 'May 2025 — Aug 2025',
     tag: 'Internship',
@@ -118,7 +118,7 @@ export const experience = [
     ],
   },
   {
-    company: 'SoftNerve Technologies Pvt Ltd',
+    company: 'SoftNerve Technologies',
     role: 'Artificial Intelligence Intern',
     period: 'Aug 2024 — Sept 2024',
     tag: 'Internship',

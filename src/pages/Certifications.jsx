@@ -5,32 +5,49 @@ import Seo from '../components/Seo.jsx';
 import { certifications } from '../data/profile.js';
 
 const Certifications = () => (
-  <div className="space-y-16">
+  <div className="space-y-18">
     <Seo
       title="Certifications"
-      description="Explore every certification, award, and publication earned by Harsh Kumawat."
-      url="https://harshk.is-a.dev/certifications"
+      description="Explore certifications, publications, hackathon wins, and other milestones that back Harsh Kumawat’s work in AI and engineering."
+      url="https://harshk.is-a.dev/harsh-certifications"
     />
 
+    {/* Hero */}
     <section>
-      <Container className="space-y-6 text-center">
-        <SectionTitle
-          align="center"
-          eyebrow="Credentials"
-          title="A catalogue of certificates, publications, and recognitions."
-          description="From academic programmes to hackathon wins and research publications, this list captures the milestones that shaped my AI and engineering practice."
-        />
-        <div className="flex justify-center">
-          <Button as="a" href="/resume" variant="secondary">
-            Download resume summary
-          </Button>
+      <Container className="grid gap-8 rounded-3xl border border-slate-200 bg-white/80 p-8 text-left shadow-soft dark:border-white/10 dark:bg-white/10 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
+        <div className="space-y-5">
+          <SectionTitle
+            eyebrow="Credentials"
+            title="Proof points that complement the projects."
+            description="I care most about experiences that sharpen my judgment, but formal credentials help you understand where that experience comes from."
+          />
+          <div className="flex flex-wrap gap-3">
+            <Button as="a" to="/harsh-resume" variant="secondary">
+              View resume-style overview
+            </Button>
+          </div>
+        </div>
+        <div className="space-y-4 rounded-2xl border border-slate-200 bg-white/90 p-5 text-sm text-slate-700 shadow-sm dark:border-white/10 dark:bg-slate-900/40 dark:text-slate-200">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
+            What you’ll find here
+          </p>
+          <ul className="mt-2 space-y-2">
+            <li>• Research publications and patents in applied AI.</li>
+            <li>• Cloud and AI platform certifications from major providers.</li>
+            <li>• Hackathon recognitions and programmes that emphasise leadership.</li>
+          </ul>
+          <p className="text-xs text-slate-500 dark:text-slate-400">
+            Together, they show the breadth of topics I’ve invested in—from infrastructure and security to
+            data science, ML, and communication.
+          </p>
         </div>
       </Container>
     </section>
 
+    {/* Grid */}
     <section>
       <Container className="space-y-8">
-        <h3 className="text-lg font-heading font-semibold text-slate-900 dark:text-white">
+        <h3 className="mt-4 text-sm font-heading font-semibold uppercase tracking-[0.3em] text-slate-600 dark:text-slate-300">
           Complete list
         </h3>
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -39,11 +56,11 @@ const Certifications = () => (
               key={certificate.title}
               className="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-lg dark:border-white/10 dark:bg-white/5"
             >
-              <div className="h-40 overflow-hidden">
+              <div className="relative overflow-hidden rounded-t-3xl">
                 <img
                   src={certificate.image}
                   alt={certificate.title}
-                  className="h-full w-full object-cover"
+                  className="certification-image w-full object-cover"
                   loading="lazy"
                 />
               </div>

@@ -45,3 +45,24 @@ body {
 .shadow-glass {
   box-shadow: 0 12px 35px -18px rgba(99, 102, 241, 0.35);
 }
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient-text {
+  background-size: 200% 200%;
+  animation: gradient-move 6s linear infinite;
+}
+
+.certification-image {
+  aspect-ratio: 16 / 9;
+}

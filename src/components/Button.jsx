@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
+import { useNavigate } from 'react-router-dom';
 
 const buttonVariants = {
   primary:
@@ -8,21 +9,45 @@ const buttonVariants = {
     'bg-slate-900 text-white hover:bg-slate-800 dark:bg-slate-200 dark:text-slate-900 dark:hover:bg-white',
   outline:
     'border border-white/20 bg-transparent text-white hover:bg-white/10 dark:border-slate-700 dark:text-slate-200',
+  ghost:
+    'border border-slate-200 bg-transparent text-slate-700 hover:bg-slate-100 dark:border-white/10 dark:text-slate-200 dark:hover:bg-white/10',
 };
 
 const MotionButton = motion.button;
+const MotionAnchor = motion.a;
 
 const Button = ({
   as = 'button',
   href,
+  to,
   variant = 'primary',
   className,
   children,
   icon: Icon,
   iconPosition = 'right',
+  onClick,
   ...props
 }) => {
-  const Component = as === 'a' ? motion.a : MotionButton;
+  const navigate = useNavigate();
+  const isLinkLike = as === 'a';
+  const Component = isLinkLike ? MotionAnchor : MotionButton;
+
+  const handleClick = (event) => {
+    if (onClick) {
+      onClick(event);
+    }
+    if (event.defaultPrevented) return;
+
+    if (
+      to &&
+      !props.target &&
+      event.button === 0 &&
+      !(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey)
+    ) {
+      event.preventDefault();
+      navigate(to);
+    }
+  };
 
   return (
     <Component
@@ -33,7 +58,8 @@ const Button = ({
         buttonVariants[variant],
         className,
       )}
-      href={href}
+      href={href || to}
+      onClick={handleClick}
       {...props}
     >
       {iconPosition === 'left' && Icon && <Icon className="h-4 w-4" />}

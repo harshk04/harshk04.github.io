@@ -11,20 +11,38 @@ const Blog = () => (
   <div className="space-y-16">
     <Seo
       title="Blog"
-      description="Stories and lessons from Harsh Kumawat’s AI projects, leadership, and prototyping adventures."
-      url="https://harshk.is-a.dev/blog"
+      description="Essays and field notes from Harsh Kumawat’s AI projects, community work, and product experiments."
+      url="https://harshk.is-a.dev/harsh-blog"
     />
+
+    {/* Hero */}
     <section>
-      <Container className="space-y-6 text-center">
-        <SectionTitle
-          align="center"
-          eyebrow="Blog"
-          title="Notes on leadership, AI builds, and product experiments."
-          description="Deep dives and field notes from the projects, communities, and prototypes that taught me the most."
-        />
+      <Container className="grid gap-8 rounded-3xl border border-slate-200 bg-white/80 p-8 shadow-soft dark:border-white/10 dark:bg-white/10 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
+        <div className="space-y-5">
+          <SectionTitle
+            eyebrow="Blog"
+            title="Stories from the build logs."
+            description="I write when a project, community sprint, or conversation teaches me something I don’t want to forget. Expect honest reflections more than perfect playbooks."
+          />
+        </div>
+        <div className="space-y-3 rounded-2xl border border-slate-200 bg-white p-5 text-sm text-slate-700 shadow-sm dark:border-white/10 dark:bg-slate-900/40 dark:text-slate-200">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
+            What I write about
+          </p>
+          <ul className="mt-2 space-y-1">
+            <li>• Applied AI and RAG workflows.</li>
+            <li>• Leading and scaling student communities.</li>
+            <li>• Designing side projects with real users in mind.</li>
+          </ul>
+          <p className="text-xs text-slate-500 dark:text-slate-400">
+            If you’d like me to cover something specific, you can always suggest a topic at the bottom of
+            this page.
+          </p>
+        </div>
       </Container>
     </section>
 
+    {/* Posts */}
     <section>
       <Container className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
         {blogPosts.map((post, index) => (
@@ -72,7 +90,7 @@ const Blog = () => (
                 ))}
               </div>
               <Link
-                to={`/blog/${post.slug}`}
+                to={`/harsh-blog/${post.slug}`}
                 className="inline-flex items-center gap-2 text-sm font-semibold text-primary transition hover:gap-3 hover:text-primary/80"
               >
                 Read article
@@ -84,6 +102,7 @@ const Blog = () => (
       </Container>
     </section>
 
+    {/* CTA */}
     <section>
       <Container className="flex justify-center">
         <div className="max-w-3xl space-y-4 rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-soft dark:border-white/10 dark:bg-white/5">
@@ -96,7 +115,7 @@ const Blog = () => (
           </p>
           <div className="flex justify-center">
             <Link
-              to="/contact"
+              to="/harsh-contact"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
             >
               Suggest a topic

@@ -17,13 +17,13 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="services" element={<Services />} />
-        <Route path="certifications" element={<Certifications />} />
-        <Route path="resume" element={<Resume />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="blog">
+        <Route path="harsh-about" element={<About />} />
+        <Route path="harsh-projects" element={<Projects />} />
+        <Route path="harsh-services" element={<Services />} />
+        <Route path="harsh-certifications" element={<Certifications />} />
+        <Route path="harsh-resume" element={<Resume />} />
+        <Route path="harsh-contact" element={<Contact />} />
+        <Route path="harsh-blog">
           <Route index element={<Blog />} />
           <Route path=":slug" element={<BlogPost />} />
         </Route>

@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 const defaultMeta = {
   title: 'Harsh Kumawat | AI/ML Engineer & Data Scientist',
   description:
-    'Portfolio of Harsh Kumawat — ECE undergraduate specialising in AI/ML, data science, and human-centred product builds.',
+    'Portfolio of Harsh Kumawat — engineering undergraduate specialising in AI/ML, data science, and human-centred product builds.',
   url: 'https://harshk.is-a.dev',
   image: 'https://harshk.is-a.dev/images/profile2.jpeg',
 };

@@ -68,55 +68,44 @@ const Contact = () => {
     <div className="space-y-16">
       <Seo
         title="Contact"
-        description="Contact Harsh Kumawat for AI/ML projects, collaborations, and speaking opportunities."
-        url="https://harshk.is-a.dev/contact"
+        description="Reach out to Harsh Kumawat about AI/ML projects, internships, collaborations, or speaking opportunities."
+        url="https://harshk.is-a.dev/harsh-contact"
       />
-      <section>
-        <Container className="space-y-6 text-center">
-          <SectionTitle
-            align="center"
-            eyebrow="Contact"
-            title="Let’s collaborate on something meaningful."
-            description="Whether it’s a hackathon sprint, a product idea, or community mentoring, I’d love to hear what you’re building."
-          />
-        </Container>
-      </section>
 
       <section className="relative">
-        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(99,102,241,0.15),transparent_55%),radial-gradient(circle_at_bottom,rgba(20,184,166,0.15),transparent_55%)]" />
-        <Container className="grid gap-12 rounded-3xl border border-slate-200 bg-white/70 p-6 shadow-soft backdrop-blur dark:border-white/10 dark:bg-white/5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]">
+        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(79,70,229,0.18),transparent_55%),radial-gradient(circle_at_bottom_right,rgba(45,212,191,0.18),transparent_55%)]" />
+        <Container className="grid gap-10 rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-soft backdrop-blur dark:border-white/10 dark:bg-white/5 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1.1fr)]">
           <div className="space-y-8">
-            <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-soft dark:border-white/10 dark:bg-white/5">
-              <h3 className="text-lg font-heading font-semibold text-slate-900 dark:text-white">
+            <SectionTitle
+              eyebrow="Contact"
+              title="Let’s talk about what you’re building."
+              description="Share a short note about your project, context, or community. I read every message and try to respond within a day."
+            />
+            <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-soft dark:border-white/10 dark:bg-white/5">
+              <h3 className="text-sm font-heading font-semibold text-slate-900 dark:text-white">
                 Reach out directly
               </h3>
-              <ul className="mt-6 space-y-4 text-sm text-slate-600 dark:text-slate-300">
+              <ul className="mt-5 space-y-4 text-sm text-slate-600 dark:text-slate-300">
                 {contactChannels.map((channel) => (
                   <li key={channel.label} className="flex flex-col">
-                    <span className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
+                    <span className="text-[11px] font-semibold uppercase tracking-[0.3em] text-primary">
                       {channel.label}
                     </span>
-                    <a href={channel.href} className="mt-1 text-base font-medium text-slate-800 hover:text-primary dark:text-slate-200">
+                    <a
+                      href={channel.href}
+                      className="mt-1 text-base font-medium text-slate-800 hover:text-primary dark:text-slate-200"
+                    >
                       {channel.value}
                     </a>
                   </li>
                 ))}
               </ul>
               <div className="mt-6">
-                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-primary">
                   Socials
                 </p>
                 <SocialLinks links={socialLinks} className="mt-3" />
               </div>
-            </div>
-            <div className="rounded-3xl border border-primary/20 bg-primary/5 p-6">
-              <h3 className="text-base font-heading font-semibold text-primary">Availability</h3>
-              <p className="mt-2 text-sm text-slate-700 dark:text-slate-200">
-                {personalInfo.availability}
-              </p>
-              <p className="mt-2 text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
-                Typical response time: under 24 hours
-              </p>
             </div>
           </div>
 
@@ -126,7 +115,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.5, ease: 'easeOut' }}
-            className="space-y-6 rounded-3xl border border-slate-200 bg-white p-8 shadow-soft dark:border-white/10 dark:bg-white/5"
+            className="space-y-6 rounded-3xl border border-slate-200 bg-white p-7 shadow-soft dark:border-white/10 dark:bg-white/5"
           >
             <div className="grid gap-6 md:grid-cols-2">
               <div className="flex flex-col gap-2">
@@ -186,10 +175,10 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 className="rounded-xl border border-slate-200 bg-transparent px-4 py-3 text-sm text-slate-900 outline-none transition focus:border-primary focus:ring-2 focus:ring-primary/30 dark:border-white/10 dark:text-white"
-                placeholder="Tell me about the challenge, timeline, and what success looks like."
+                placeholder="Share what you’re exploring, timelines, and what success would look like."
               />
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <Button type="submit" disabled={status.state === 'loading'}>
                 {status.state === 'loading' ? 'Sending…' : 'Send message'}
               </Button>

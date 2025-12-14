@@ -6,7 +6,7 @@ const itemVariants = {
   animate: { opacity: 1, x: 0 },
 };
 
-const Timeline = ({ items, collapsible = false }) => {
+const Timeline = ({ items, collapsible = false, maxPoints }) => {
   const [openIndex, setOpenIndex] = useState(collapsible ? -1 : null);
 
   const handleToggle = (index) => {
@@ -18,6 +18,10 @@ const Timeline = ({ items, collapsible = false }) => {
     <div className="relative space-y-8 border-l border-slate-200 pl-8 dark:border-white/10">
       {items.map((item, index) => {
         const hasDescription = Array.isArray(item.description) && item.description.length > 0;
+        const visibleDescription =
+          hasDescription && typeof maxPoints === 'number'
+            ? item.description.slice(0, maxPoints)
+            : item.description;
         const isOpen = !collapsible || !hasDescription || openIndex === index;
         return (
           <motion.div
@@ -49,7 +53,7 @@ const Timeline = ({ items, collapsible = false }) => {
               )}
               {hasDescription && isOpen && (
                 <ul className="mt-3 space-y-2 text-sm text-slate-600 dark:text-slate-300">
-                  {item.description.map((point) => (
+                  {visibleDescription.map((point) => (
                     <li key={point} className="flex gap-2">
                       <span className="mt-1 h-1.5 w-1.5 flex-none rounded-full bg-primary/60" />
                       <span>{point}</span>
