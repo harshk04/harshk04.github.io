@@ -131,6 +131,7 @@ const Resume = () => (
 
         <div className="space-y-6">
           <SectionTitle
+          // Hellos
             eyebrow="Certifications"
             title="Highlights from continued learning."
             description="A small subset of credentials that align closely with AI, cloud, and product work."
