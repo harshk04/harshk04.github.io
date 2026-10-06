@@ -19,7 +19,7 @@ import { featuredProjects } from '../data/projects.js';
 
 const Home = () => {
   const featuredExperience = professionalExperience.filter((item) =>
-    ['IndusLabs AI', 'Ravviolabs Technologies'].includes(item.company),
+    ['Oracle', 'IndusLabs AI'].includes(item.company),
   );
   const topServices = services.slice(0, 3);
 
@@ -154,7 +154,7 @@ const Home = () => {
           <div className="space-y-6 rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-soft dark:border-white/10 dark:bg-white/5">
             <SectionTitle
               eyebrow="Experience"
-              title="Internships and roles that taught me to ship."
+              title="Professional experience that taught me to ship."
               description="A quick timeline of recent work across AI startups, product labs, and community leadership."
             />
             <Timeline items={featuredExperience} maxPoints={2} />
@@ -163,7 +163,7 @@ const Home = () => {
             </Button>
           </div>
 
-          <div className="space-y-5 rounded-3xl border border-primary/20 bg-primary/5 p-6 shadow-soft">
+          <div className="self-start space-y-5 rounded-3xl border border-primary/20 bg-primary/5 p-6 shadow-soft">
             <h3 className="text-base font-heading font-semibold text-primary">
               How I usually collaborate
             </h3>

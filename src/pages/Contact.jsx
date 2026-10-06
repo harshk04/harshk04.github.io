@@ -6,7 +6,7 @@ import Container from '../components/Container.jsx';
 import SectionTitle from '../components/SectionTitle.jsx';
 import Seo from '../components/Seo.jsx';
 import SocialLinks from '../components/SocialLinks.jsx';
-import { contactChannels, personalInfo, socialLinks } from '../data/profile.js';
+import { contactChannels, socialLinks } from '../data/profile.js';
 
 const CONTACT_ENDPOINT = 'https://formsubmit.co/ajax/kumawatharsh2004@gmail.com';
 

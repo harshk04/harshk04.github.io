@@ -2,7 +2,7 @@ import Button from '../components/Button.jsx';
 import Container from '../components/Container.jsx';
 import SectionTitle from '../components/SectionTitle.jsx';
 import Seo from '../components/Seo.jsx';
-import { certifications } from '../data/profile.js';
+import { certifications, publications } from '../data/profile.js';
 
 const Certifications = () => (
   <div className="space-y-18">
@@ -13,33 +13,27 @@ const Certifications = () => (
     />
 
     {/* Hero */}
+  
+
     <section>
-      <Container className="grid gap-8 rounded-3xl border border-slate-200 bg-white/80 p-8 text-left shadow-soft dark:border-white/10 dark:bg-white/10 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
-        <div className="space-y-5">
-          <SectionTitle
-            eyebrow="Credentials"
-            title="Proof points that complement the projects."
-            description="I care most about experiences that sharpen my judgment, but formal credentials help you understand where that experience comes from."
-          />
-          <div className="flex flex-wrap gap-3">
-            <Button as="a" to="/harsh-resume" variant="secondary">
-              View resume-style overview
-            </Button>
-          </div>
-        </div>
-        <div className="space-y-4 rounded-2xl border border-slate-200 bg-white/90 p-5 text-sm text-slate-700 shadow-sm dark:border-white/10 dark:bg-slate-900/40 dark:text-slate-200">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
-            What you’ll find here
-          </p>
-          <ul className="mt-2 space-y-2">
-            <li>• Research publications and patents in applied AI.</li>
-            <li>• Cloud and AI platform certifications from major providers.</li>
-            <li>• Hackathon recognitions and programmes that emphasise leadership.</li>
-          </ul>
-          <p className="text-xs text-slate-500 dark:text-slate-400">
-            Together, they show the breadth of topics I’ve invested in—from infrastructure and security to
-            data science, ML, and communication.
-          </p>
+      <Container className="space-y-6">
+        <SectionTitle
+          eyebrow="Publications & learning"
+          title="Research on natural-language systems and continued AI learning."
+          description="Selected work exploring how language models can make complex data and domain knowledge easier to use."
+        />
+        <div className="grid gap-4 md:grid-cols-2">
+          {publications.map((publication) => (
+            <a
+              key={publication.title}
+              href={publication.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-3xl border border-slate-200 bg-white p-6 text-sm font-medium text-slate-800 shadow-soft transition hover:-translate-y-1 hover:border-primary/40 hover:text-primary dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            >
+              {publication.title}
+            </a>
+          ))}
         </div>
       </Container>
     </section>

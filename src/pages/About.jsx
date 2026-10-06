@@ -24,7 +24,7 @@ const About = () => {
 
       {/* Hero / intro */}
       <section>
-        <Container className="grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] lg:items-start">
+        <Container className="grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,0.9fr)] lg:items-start">
           <div className="space-y-6">
             <SectionTitle
               eyebrow="About Me"
@@ -47,67 +47,70 @@ const About = () => {
               </div>
               <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-soft dark:border-white/10 dark:bg-white/5">
                 <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
-                  Strengths people notice
+                  Quick facts
                 </h3>
-                <ul className="mt-3 space-y-2 text-sm text-slate-700 dark:text-slate-300">
-                  {aboutContent.traits.map((item) => (
-                    <li key={item} className="flex gap-2">
-                      <span className="mt-1 h-2 w-2 rounded-full bg-primary/70" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
+                <dl className="mt-3 grid gap-3 text-sm text-slate-700 dark:text-slate-200">
+                  <div className="flex justify-between gap-4">
+                    <dt className="font-medium text-slate-600 dark:text-slate-300">Location</dt>
+                    <dd className="text-right">{personalInfo.location}</dd>
+                  </div>
+                  <div className="flex justify-between gap-4">
+                    <dt className="font-medium text-slate-600 dark:text-slate-300">Email</dt>
+                    <dd className="text-right">
+                      <a href={`mailto:${personalInfo.email}`} className="hover:text-primary">
+                        {personalInfo.email}
+                      </a>
+                    </dd>
+                  </div>
+                  <div className="flex justify-between gap-4">
+                    <dt className="font-medium text-slate-600 dark:text-slate-300">Phone</dt>
+                    <dd className="text-right">
+                      <a href="tel:+919928967278" className="hover:text-primary">
+                        {personalInfo.phone}
+                      </a>
+                    </dd>
+                  </div>
+                  <div className="flex justify-between gap-4">
+                    <dt className="font-medium text-slate-600 dark:text-slate-300">Availability</dt>
+                    <dd className="text-right">{personalInfo.availability}</dd>
+                  </div>
+                </dl>
+                <div className="mt-4 rounded-2xl border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
+                  <h4 className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-900 dark:text-white">
+                    Snapshot
+                  </h4>
+                  <ul className="mt-3 grid gap-2 text-sm text-slate-700 dark:text-white/90">
+                    {overviewStats.map((stat) => (
+                      <li key={stat.label} className="flex justify-between gap-4">
+                        <span className="font-medium">{stat.label}</span>
+                        <span className="font-semibold text-primary">{stat.value}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <Button
+                  as="a"
+                  href={personalInfo.resumeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4"
+                >
+                  Open resume folder
+                </Button>
               </div>
             </div>
           </div>
 
-          <aside className="space-y-5 rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-soft dark:border-white/10 dark:bg-white/5">
-            <h3 className="text-sm font-heading font-semibold text-slate-900 dark:text-white">
-              Quick facts
-            </h3>
-            <dl className="grid gap-3 text-sm text-slate-700 dark:text-slate-200">
-              <div className="flex justify-between gap-4">
-                <dt className="font-medium text-slate-600 dark:text-slate-300">Location</dt>
-                <dd className="text-right">{personalInfo.location}</dd>
-              </div>
-              <div className="flex justify-between gap-4">
-                <dt className="font-medium text-slate-600 dark:text-slate-300">Email</dt>
-                <dd className="text-right">
-                  <a href={`mailto:${personalInfo.email}`} className="hover:text-primary">
-                    {personalInfo.email}
-                  </a>
-                </dd>
-              </div>
-              <div className="flex justify-between gap-4">
-                <dt className="font-medium text-slate-600 dark:text-slate-300">Phone</dt>
-                <dd className="text-right">
-                  <a href="tel:+919928967278" className="hover:text-primary">
-                    {personalInfo.phone}
-                  </a>
-                </dd>
-              </div>
-              <div className="flex justify-between gap-4">
-                <dt className="font-medium text-slate-600 dark:text-slate-300">Availability</dt>
-                <dd className="text-right">{personalInfo.availability}</dd>
-              </div>
-            </dl>
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
-              <h4 className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-900 dark:text-white">
-                Snapshot
-              </h4>
-              <ul className="mt-3 grid gap-2 text-sm text-slate-700 dark:text-white/90">
-                {overviewStats.map((stat) => (
-                  <li key={stat.label} className="flex justify-between gap-4">
-                    <span className="font-medium">{stat.label}</span>
-                    <span className="font-semibold text-primary">{stat.value}</span>
-                  </li>
-                ))}
-              </ul>
+          <div className="relative mx-auto w-full max-w-sm self-center">
+            <div className="pointer-events-none absolute -inset-6 -z-10 rounded-[2.5rem] bg-gradient-to-tr from-primary/30 via-emerald-400/20 to-transparent blur-3xl" />
+            <div className="overflow-hidden rounded-[2rem] border border-white/40 bg-white/10 p-2 shadow-soft backdrop-blur dark:border-white/20">
+              <img
+                src="/images/profile2.jpeg"
+                alt={personalInfo.name}
+                className="aspect-[4/5] w-full rounded-[1.6rem] object-cover"
+              />
             </div>
-            <Button as="a" href={personalInfo.resumeUrl} target="_blank" rel="noopener noreferrer">
-              Open resume folder
-            </Button>
-          </aside>
+          </div>
         </Container>
       </section>
 
@@ -116,22 +119,42 @@ const About = () => {
         <Container className="space-y-10">
           <SectionTitle
             eyebrow="Experience"
-            title="Tracks that shaped my approach to AI and product."
-            description="I split my time between professional internships and community roles. Both taught me how to ship reliable work while staying empathetic to the people using it."
+            title="Professional experience that shaped how I ship."
+            description="A timeline of the internships and consulting work that built my approach to dependable AI and product delivery."
           />
-          <div className="grid gap-10 lg:grid-cols-2">
-            <div className="space-y-4">
-              <h3 className="text-sm font-heading font-semibold uppercase tracking-[0.3em] text-slate-700 dark:text-slate-200">
-                Professional work experience
-              </h3>
-              <Timeline items={professionalExperience} collapsible />
-            </div>
-            <div className="space-y-4">
-              <h3 className="text-sm font-heading font-semibold uppercase tracking-[0.3em] text-slate-700 dark:text-slate-200">
-                Community leadership & impact
-              </h3>
-              <Timeline items={otherExperience} collapsible />
-            </div>
+          <div className="mx-auto max-w-4xl">
+            <Timeline items={professionalExperience} />
+          </div>
+        </Container>
+      </section>
+
+      <section>
+        <Container className="space-y-10">
+          <SectionTitle
+            eyebrow="Community leadership"
+            title="Leadership, mentorship, and community impact."
+            description="Experiences that strengthened how I collaborate, mentor, and build alongside developer communities."
+          />
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            {otherExperience.map((item) => (
+              <article
+                key={`${item.company}-${item.role}-${item.period}`}
+                className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-soft transition hover:-translate-y-1 hover:border-primary/40 dark:border-white/10 dark:bg-white/5"
+              >
+                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
+                  {item.tag}
+                </p>
+                <h3 className="mt-4 text-xl font-heading font-semibold text-slate-900 dark:text-white">
+                  {item.role}
+                </h3>
+                <p className="mt-2 text-sm font-medium text-slate-700 dark:text-slate-200">
+                  {item.company}
+                </p>
+                <p className="mt-auto pt-6 text-xs font-medium uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+                  {item.period}
+                </p>
+              </article>
+            ))}
           </div>
         </Container>
       </section>

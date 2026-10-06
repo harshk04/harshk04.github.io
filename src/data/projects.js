@@ -11,14 +11,14 @@ export const projectFilters = [
 export const projects = [
   {
     id: 'sqlgenie',
-    title: 'SQLGenie',
+    title: 'DataInsight AI',
     description:
-      'A friendly SQL assistant powered by LLaMA 3, OpenAI, and SQLCoder that helps craft queries, build data visuals, and offer guided training paths.',
+      'A multi-tenant AI analytics platform using Next.js, FastAPI, Groq, and OpenAI to turn natural-language business questions into validated SQL, explanations, and interactive dashboards.',
     image: '/images/projects/sqlgenie.png',
-    tags: ['Generative AI', 'Chatbot', 'SQL'],
-    filter: ['ai-ml', 'generative-ai', 'fullstack'],
+    tags: ['Generative AI', 'RAG', 'Natural Language-to-SQL', 'Analytics'],
+    filter: ['ai-ml', 'generative-ai', 'fullstack', 'data'],
     links: {
-      demo: 'https://github.com/harshk04/SQLGenie',
+      demo: 'http://3.6.57.204:3000/',
       github: 'https://github.com/harshk04/SQLGenie',
     },
   },
@@ -26,9 +26,9 @@ export const projects = [
     id: 'automobile-damage-detection',
     title: 'Automobile Damage Detection',
     description:
-      'A computer-vision pipeline that evaluates vehicle images to detect and classify damage for faster assessments and fraud prevention.',
+      'An end-to-end computer-vision pipeline trained on 7,000+ images with PyTorch, TensorFlow, OpenCV, YOLO, and OCR to assess vehicle damage with 93.8% accuracy.',
     image: '/images/projects/auto.png',
-    tags: ['Computer Vision', 'TensorFlow', 'Streamlit'],
+    tags: ['Computer Vision', 'PyTorch', 'TensorFlow', 'YOLO', 'OCR'],
     filter: ['ai-ml', 'data'],
     links: {
       demo: 'https://automobile-damage-detection.streamlit.app/',

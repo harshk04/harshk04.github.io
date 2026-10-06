@@ -36,6 +36,14 @@ export const skills = [
         icon: 'https://img.icons8.com/?size=48&id=TUk7vxvtu6hX&format=png&color=000000',
       },
       {
+        name: 'RAG & Embeddings',
+        icon: 'https://img.icons8.com/?size=48&id=TUk7vxvtu6hX&format=png&color=000000',
+      },
+      {
+        name: 'NLP & Transformers',
+        icon: 'https://img.icons8.com/?size=48&id=TUk7vxvtu6hX&format=png&color=000000',
+      },
+      {
         name: 'Neural Networks',
         icon: 'https://img.icons8.com/?size=48&id=BwGcPKOMjiez&format=png&color=000000',
       },
@@ -68,6 +76,10 @@ export const skills = [
         name: 'Pandas',
         icon: 'https://img.icons8.com/color/48/pandas.png',
       },
+      {
+        name: 'FastAPI',
+        icon: 'https://img.icons8.com/?size=48&id=TUk7vxvtu6hX&format=png&color=000000',
+      },
     ],
   },
   {
@@ -81,6 +93,14 @@ export const skills = [
         name: 'Vector Databases',
         icon: 'https://img.icons8.com/?size=48&id=RXrON5kyN96A&format=png&color=000000',
       },
+      {
+        name: 'PostgreSQL & MongoDB',
+        icon: 'https://img.icons8.com/?size=48&id=ldAV1F3sx1VI&format=png&color=000000',
+      },
+      {
+        name: 'Faster-Whisper & Plotly',
+        icon: 'https://img.icons8.com/?size=48&id=HlbeI5zSsj4P&format=png&color=000000',
+      },
     ],
   },
   {
@@ -93,6 +113,10 @@ export const skills = [
       {
         name: 'Docker',
         icon: 'https://img.icons8.com/color/48/000000/docker.png',
+      },
+      {
+        name: 'Oracle Cloud Infrastructure',
+        icon: 'https://img.icons8.com/color/48/000000/amazon-web-services.png',
       },
     ],
   },

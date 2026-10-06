@@ -38,6 +38,15 @@ const Blog = () => (
             If you’d like me to cover something specific, you can always suggest a topic at the bottom of
             this page.
           </p>
+          <a
+            href="https://medium.com/@kumawatharsh2004"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-primary transition hover:gap-3 hover:text-primary/80"
+          >
+            Follow my writing on Medium
+            <ArrowRight className="h-4 w-4" />
+          </a>
         </div>
       </Container>
     </section>
@@ -89,13 +98,25 @@ const Blog = () => (
                   </span>
                 ))}
               </div>
-              <Link
-                to={`/harsh-blog/${post.slug}`}
-                className="inline-flex items-center gap-2 text-sm font-semibold text-primary transition hover:gap-3 hover:text-primary/80"
-              >
-                Read article
-                <ArrowRight className="h-4 w-4" />
-              </Link>
+              {post.externalUrl ? (
+                <a
+                  href={post.externalUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-primary transition hover:gap-3 hover:text-primary/80"
+                >
+                  Read on Medium
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+              ) : (
+                <Link
+                  to={`/harsh-blog/${post.slug}`}
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-primary transition hover:gap-3 hover:text-primary/80"
+                >
+                  Read article
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              )}
             </div>
           </motion.article>
         ))}
